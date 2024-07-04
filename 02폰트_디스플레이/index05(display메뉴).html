@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {padding: 0; margin: 0;}
+        ul, li {list-style: none;}
+
+        .menu {background-color: pink; text-align: center;}
+        .menu > li {display: inline;}
+        .menu > li > a {
+            display: inline-block; 
+            width: 80px; 
+            height: 80px; 
+            line-height: 80px; 
+            color: red; 
+            text-decoration: none;}
+        .menu > li > a:hover {
+            background-color: palevioletred;
+        }
+
+
+        header {background-color: #111;}
+        div {text-align: center;}
+        .nav {text-align: right;}
+        .nav > .gnb > li { display: inline; text-align: center;}
+        .nav > .gnb > li > a {
+            display: inline-block;
+            width: 50px;
+            height: 70px;
+            line-height: 70px;
+            font-size: 15px;
+            color: rgb(245, 243, 243);
+            text-decoration: none;
+        }
+        .nav > .gnb > li > a:hover { background-color: #333;}
+
+
+    </style>
+</head>
+<body>
+
+<!--     
+    <ul class="menu">
+        <li><a href="#">메뉴</a></li>
+        <li><a href="#">메뉴</a></li>
+        <li><a href="#">메뉴</a></li>
+        <li><a href="#">메뉴</a></li>
+        <li><a href="#">메뉴</a></li>
+    </ul> -->
+
+    <header>
+        <div style="">
+            <img src="img/css3.png" >
+        </div>
+        <nav class="nav">
+            <ul class="gnb">
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

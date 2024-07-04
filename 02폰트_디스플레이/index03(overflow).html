@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .text-box {
+            border: 1px solid #777;
+            height: 100px;
+            width: 300px;
+            overflow: visible; /* 기본값 */
+            overflow: scroll; /* 무조건 스크롤을 만든다 */
+            overflow: hidden; /* 넘치는 영역을 숨긴다 */
+            overflow: auto; /* 공간이 남으면 그대로, 넘치면 스크롤을 만듬 */
+        }
+
+        .table-box {
+            border: 1px solid #777;
+            height: 100px;
+            width: 300px;
+            overflow-x: auto; /* x축으로 스크롤을 자동으로 만듬 */
+            white-space: nowrap; /* 가로 줄바꿈을 방지 */
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <p class="text-box">
+        You and me내 맘이 보이지한참을 쳐다봐가까이 다가가You seeYou see, ey ey ey eyOne, two, three용기가 생겼지이미 아는 네 눈치고개를 돌려 천천히여기You see여기 보이니Looking for attention 너야겠어확실하게 나로 만들겠어Stop, eyyy        Drop the question
+    </p>
+
+    <div class="table-box">
+        <table border="1">
+            <tr>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+            </tr>
+            <tr>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+            </tr>
+            <tr>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+            </tr>
+            <tr>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+            </tr>
+            <tr>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+                <td>데이터</td>
+            </tr>
+        </table>    
+    </div>    
+</body>
+</html>
